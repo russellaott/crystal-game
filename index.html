@@ -1,0 +1,67 @@
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  
+<div class="header">
+  <hi>Crystal Collector Number Game</h1>
+  </div>
+  <br>
+  <div class="rules">
+    <h2>Rules to the Game</h2>
+    <br>
+    <ol>
+      <li> 1. The computer generates a random number that is your winning number</li>
+      <li> 2. Your goal is to click on the crystals to try to match the winning number</li>
+      <li> 3. A random number is generated and added to your total each time a crystal is clicked</li>
+      <li> 4. If your total score is more than the winning number you lose </li>
+      <li> 5. If you match the winning number exactly you win!</li>
+    </ol>
+  </div>
+  
+ 
+  <img src="./assets/images/crystal.jpg" class="crystalImage" id="one" alt="Crystal One">
+  <img src="./assets/images/crystal.jpg" class="crystalImage" id="two" alt="Crystal Two">
+  <img src="./assets/images/crystal.jpg" class="crystalImage" id= "three" alt="Crystal Three">
+	<img src="./assets/images/crystal.jpg" class="crystalImage" id= "four" alt="Crystal Four">
+ 
+</div>
+  
+  <div class="winNumber">
+    Winning Number
+    <span id="numToWin"></span>
+  </div>
+  
+  <div class="winDiv">
+    Wins
+    <span id="Wins"></span>
+    <br>
+    Losses
+    <span id="lossDiv"></span>
+  <div class="currentScore">
+    Current Score
+    <span id="scoreDiv"></span>
+  </div>
+  
+  
+     
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="./assets/javascript/game.js"></script>
+    
+  
+  
+  
+
+</body>
+</html>
